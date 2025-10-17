@@ -40,7 +40,7 @@ public class Loops_Switch {
 		}
 */
 		
-		// Write a indian seasons update according to the month
+		/*// Write a indian seasons update according to the month
 		
 		enum Months { JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC, NAVV }
 		
@@ -51,8 +51,20 @@ public class Loops_Switch {
 			case JUL, AUG, SEP, OCT : System.out.println("This is RAINY Season"); break;
 			case NOV, DEC, JAN, FEB : System.out.println("This is Winter season"); break;
 			default : System.out.println("Invalid Month");
-		}
+		}*/
 		
+		//Read a month number (1–12) and print how many days are in that month (e.g., February has 28 or 29 days).
+		
+		
+		String Month = "FEB";
+		
+		switch(Month) {
+		case "JAN","MAR","MAY","JUL","AUG","OCT","DEC" : System.out.println("This month have 31 days"); break;
+		case "APR","JUN","SEP","NOV" : System.out.println("This month have 30 days ");break;
+		case "FEB" : System.out.println("This month have 28 days only and if you verifying the leap year then it have 29 days"); break;
+		default : System.out.println("INVALID -> Enter valid month : ");
+		
+		}
 
 } 
 }
