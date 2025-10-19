@@ -1,4 +1,4 @@
-package DAY3;
+package DAY4;
 
 public class Loops_Concepts {
 
