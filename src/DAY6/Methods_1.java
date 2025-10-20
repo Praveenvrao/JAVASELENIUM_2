@@ -6,17 +6,17 @@ public class Methods_1 {
 	String school;
 	
 	void method1() {
-		System.out.println("This is method1 with No parameters & No return only print");
+		System.out.println("This is METHOD1 with No parameters & No return only print");
 	}
 	void method2(int a, String name) {
-		System.out.println("This is a method with Parameters and Print");
+		System.out.println("This is a METHOD2 with Parameters and Print");
 		System.out.println(name + a);
 	}
 	String method3(){
-		return ("This is method with No parametrs but returns");
+		return ("This is METHOD3 with No parametrs but returns");
 	}
 	String method4(String school) {
-		return ("This is  method with parameters and returns and it writes school name -> "+school);
+		return ("This is  METHOD4 with parameters and returns and it writes school name -> "+school);
 	}
 	
 
