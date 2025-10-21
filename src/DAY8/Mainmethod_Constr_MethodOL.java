@@ -15,6 +15,21 @@ public class Mainmethod_Constr_MethodOL {
 		System.out.println(obj2.m1(15.8,62.9));
 		obj2.m1(5,2.5);
 		obj1.m1(40.5,20);
+		System.out.println();
+		
+		//Encapsulation checking from different class
+		System.out.println("Below program is for Encapsulation class program");
+		Encapsulation bank = new Encapsulation();
+		
+		bank.SetAccno(241523);
+		bank.Setname("MARK C");
+		bank.setAcBal(77000);
+		bank.setBranch("New York");
+		
+		System.out.println(bank.GetAccno());
+		System.out.println(bank.Getname());
+		System.out.println(bank.getAcBal());
+		System.out.println(bank.getBranch());
 		
 		
 
