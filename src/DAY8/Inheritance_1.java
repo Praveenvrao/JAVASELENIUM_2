@@ -13,9 +13,9 @@ class B extends A {
 	}
 }
 
-public class Inheritance_1 {
+public class Inheritance_1 extends B {
 
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 		// TODO Auto-generated method stub
 		A obja = new A();
 		//obja.m1(12);
