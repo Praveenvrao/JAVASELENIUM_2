@@ -30,6 +30,8 @@ class India extends CricketTeam {
 	String Color = "BLUE";
 	void TeamDetails() {
 		super.TeamDetails();
+		System.out.println("Teamname is -> "+ Teamname +" And Jersey color is -> "+Color);
+		System.out.println("ODI Matches Captain name is Below");
 	}
 	void TeamDetails(String Cap) {
 		System.out.println("Captain name is -> "+ Cap);
@@ -47,10 +49,16 @@ public class MethodOveriding_Overload {
 	
 	Australia Aus = new Australia();
 	System.out.println();
-	System.out.println("This is Australia team details ");
+	System.out.println("This is AUSTRALIAN team details ");
 
 	Aus.TeamDetails();
-	Aus.TeamDetails("Mitch Marsh");
+	Aus.TeamDetails("MITCH MARSH");
+	
+	India ind = new India();
+	System.out.println();
+	System.out.println("This is INDIAN team details ");
+	ind.TeamDetails();
+	ind.TeamDetails("VIRAT KOHLI");
 	
 	
 	
