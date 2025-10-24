@@ -22,6 +22,8 @@ public class Inheritance_Hiriercy {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		PARENT P1 = new PARENT();
+		System.out.println(P1.method1("RAJ", "MRUNAL"));
 		Child1 obj1 = new Child1();
 		System.out.println(obj1.method1("MARK C", "MARK B"));
 		obj1.childmethod1("Andrew");
