@@ -29,7 +29,6 @@ public class Inheritance_Hiriercy {
 		obj2.childmethod2("Amith");
 		System.out.println(obj2.method1("DAVID BEAN", "NAT"));
 		
-		
 
 	}
 
