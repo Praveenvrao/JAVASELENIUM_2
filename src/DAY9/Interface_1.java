@@ -34,6 +34,12 @@ public class Interface_1 implements Cricket {
 		Cricket.Test("INDIA");
 		objc1.T20("CHINA");
 		
+		System.out.println("----------------------------");
+		
+		Cricket obji1 = new Interface_1();
+		obji1.Teamname("AUSTRALIA");
+		obji1.ODI("AUSTRALIA");
+		Cricket.Test("AUSTRALIA");
 		
 
 	}
