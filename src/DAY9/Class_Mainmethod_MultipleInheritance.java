@@ -3,7 +3,7 @@ package DAY9;
 public class Class_Mainmethod_MultipleInheritance extends Class_M3 implements Interface_M1, Interface_M2 {
 	
 	public void AsianTeam() {
-		System.out.println(" This is Asian cricket team and Teamname is -> "+ AName);
+		System.out.println("This is Asian cricket team and Teamname is -> "+ AName);
 	}
 	
 	public void SENACountry() {
