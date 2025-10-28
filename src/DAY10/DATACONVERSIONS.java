@@ -16,11 +16,20 @@ public class DATACONVERSIONS {
 		int a = 100;
 		double d = 11.5;
 		char c = 'A';
-		boolean b = true;
+		boolean b = true; // In boolean otherthan true if you enter anything it willl give false
 		
 		String as= String.valueOf(a);
 		System.out.println(as);
 		System.out.println(as + (a + d));
+		
+		System.out.println(String.valueOf(d));
+		System.out.println(String.valueOf(c));
+		System.out.println(b);
+		
+		System.out.println();
+		System.out.println(" Total concatination of String ");
+		
+		System.out.println(as + String.valueOf(d)+ String.valueOf(c)+ String.valueOf(b));
 
 	}
 
