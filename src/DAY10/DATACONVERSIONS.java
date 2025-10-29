@@ -30,6 +30,17 @@ public class DATACONVERSIONS {
 		System.out.println(" Total concatination of String ");
 		
 		System.out.println(as + String.valueOf(d)+ String.valueOf(c)+ String.valueOf(b));
+		
+		//Now converting String to int, boolean, double and charecter 
+		
+		String s1 = "11";
+		String s2 = "12";
+		System.out.println(Integer.parseInt(s1));
+		System.out.println(Double.parseDouble(s2));
+		System.out.println(Boolean.parseBoolean(s2));
+		
+		System.out.println("Adding s1 and s2");
+		System.out.println(Integer.parseInt(s2) + Double.parseDouble(s1));
 
 	}
 
