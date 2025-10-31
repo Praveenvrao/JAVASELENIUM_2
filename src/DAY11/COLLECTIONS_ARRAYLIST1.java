@@ -31,6 +31,12 @@ public class COLLECTIONS_ARRAYLIST1 {
 		System.out.println();
 		System.out.println("Got the specific 2nd element in the list ->"+ list1.get(1));
 		
+		//to insert value in specific index
+		System.out.println();
+		System.out.println("To insert value in specific index ---- Below is the result after inserting the value in 4th index ");
+		list1.add(4,"INSERTION");
+		System.out.println(list1);
+		
 		
 
 	}
