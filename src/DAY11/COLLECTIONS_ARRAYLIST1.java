@@ -1,8 +1,11 @@
 package DAY11;
 
 import java.io.ObjectInputStream.GetField;
+import java.lang.classfile.AnnotationValue.OfAnnotation;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+
 
 public class COLLECTIONS_ARRAYLIST1 {
 
@@ -46,6 +49,32 @@ public class COLLECTIONS_ARRAYLIST1 {
 		//to get the size of the list
 		System.out.println();
 		System.out.println("Size of the list is -> "+ list1.size());
+		
+		//to read and write all the values from the list
+		System.out.println();
+		System.out.println(" Reading and writing all the values from the list way1 --- for loop");
+		
+		for(int i=0;i<list1.size();i++) {
+			System.out.println("Value of index "+i +" is " +list1.get(i));
+		}
+		
+		
+		System.out.println();
+		System.out.println(" Reading and writing all the values from the list way2 --- for each loop");
+		
+		for(Object j:list1) {
+			System.out.println(j);
+		}
+		
+		System.out.println();
+		System.out.println(" Reading and writing all the values from the list way3 --- Using Iterator");
+		
+		Iterator IT = list1.iterator();
+		while(IT.hasNext()) {
+			System.out.println(IT.next());
+		}
+		
+
 		
 		
 		
