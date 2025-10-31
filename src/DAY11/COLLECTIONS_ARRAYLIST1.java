@@ -85,6 +85,12 @@ public class COLLECTIONS_ARRAYLIST1 {
 		System.out.println(list1);
 		
 		
+		//to remove all the values in LIST
+		
+		System.out.println();
+		System.out.println("Clearing all the values from List2");
+		list2.clear();
+		System.out.println(list2);
 		
 		
 
