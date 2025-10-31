@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
 public class COLLECTIONS_ARRAYLIST1 {
 
 	public static void main(String[] args) {
@@ -74,7 +73,16 @@ public class COLLECTIONS_ARRAYLIST1 {
 			System.out.println(IT.next());
 		}
 		
-
+		//to remove multiple values from the list at a time
+		ArrayList<Object> list2 = new ArrayList<Object>();
+		
+		list2.add(null);
+		list2.add('P');
+		System.out.println(list2);
+		System.out.println();
+		System.out.println("Below is the list1 after removing multiple values by using list2" );
+		System.out.println(list1.removeAll(list2));
+		System.out.println(list1);
 		
 		
 		
