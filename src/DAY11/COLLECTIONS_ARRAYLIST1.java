@@ -37,6 +37,12 @@ public class COLLECTIONS_ARRAYLIST1 {
 		list1.add(4,"INSERTION");
 		System.out.println(list1);
 		
+		//to remove specific index and value
+		System.out.println();
+		System.out.println("The below list is after removing specific below index value");
+		System.out.println(list1.remove(3));
+		System.out.println(list1);
+		
 		
 
 	}
