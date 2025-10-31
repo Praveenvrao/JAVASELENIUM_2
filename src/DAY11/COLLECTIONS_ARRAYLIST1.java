@@ -43,6 +43,12 @@ public class COLLECTIONS_ARRAYLIST1 {
 		System.out.println(list1.remove(3));
 		System.out.println(list1);
 		
+		//to get the size of the list
+		System.out.println();
+		System.out.println("Size of the list is -> "+ list1.size());
+		
+		
+		
 		
 
 	}
