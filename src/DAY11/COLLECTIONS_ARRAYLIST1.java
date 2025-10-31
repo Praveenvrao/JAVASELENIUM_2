@@ -27,6 +27,10 @@ public class COLLECTIONS_ARRAYLIST1 {
 		System.out.println();
 		System.out.println("All the items in the list are -> "+ list1);
 		
+		//to get specific item in the list
+		System.out.println();
+		System.out.println("Got the specific 2nd element in the list ->"+ list1.get(1));
+		
 		
 
 	}
