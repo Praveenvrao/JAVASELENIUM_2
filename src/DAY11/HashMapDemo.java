@@ -58,7 +58,13 @@ public class HashMapDemo {
 		
 		//to remove specific value pair
 		System.out.println();
+		System.out.println(hm1.remove('C'));
+		System.out.println(hm1);
 		
+		//after clearing total Map
+		System.out.println();
+		hm1.clear();
+		System.out.println(hm1.isEmpty());
 
 	}
 
