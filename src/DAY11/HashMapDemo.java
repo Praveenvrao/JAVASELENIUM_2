@@ -19,6 +19,10 @@ public class HashMapDemo {
 		
 		System.out.println(hm1);
 		
+		//to get specific value by using key
+		System.out.println();
+		System.out.println(hm1.get('C'));
+		
 
 	}
 
