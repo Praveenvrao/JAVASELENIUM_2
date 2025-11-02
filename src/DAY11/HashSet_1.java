@@ -2,6 +2,7 @@ package DAY11;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class HashSet_1 {
@@ -40,6 +41,15 @@ public class HashSet_1 {
 		System.out.println("Using for each loop and calling values");
 		for(Object x:set1) {
 			System.out.println(x);
+		}
+		
+		System.out.println();
+		System.out.println("Calling all values by iterator");
+		
+		Iterator<Object> It1 = set1.iterator();
+		
+		while(It1.hasNext()) {
+			System.out.println(It1.next());
 		}
 
 	}
