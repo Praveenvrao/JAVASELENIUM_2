@@ -1,5 +1,8 @@
 package DAY11;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.HashMap;
+import java.util.Iterator;
 
 public class HashMapDemo {
 
@@ -30,6 +33,28 @@ public class HashMapDemo {
 		//to get only values
 		System.out.println("Below are the only values..");
 		System.out.println(hm1.values());
+		
+		//to get key and values in list
+		System.out.println(hm1.entrySet());
+		
+		//to call all key and values using enhanced for loop
+		
+		for(Object x : hm1.entrySet()) {
+			System.out.println(x);
+		}
+		
+		for(char k : hm1.keySet()) {
+			System.out.println(k +"  "+ (hm1.get(k)));
+		}
+		
+		// to call all the values using Iterator
+		
+		System.out.println();
+		System.out.println("Below values got using Iterator.....");
+		Iterator<Entry<Character,String>> It1 = hm1.entrySet().iterator();
+		while(It1.hasNext()) {
+			System.out.println(It1.next());
+		}
 		
 		//to remove specific value pair
 		System.out.println();
