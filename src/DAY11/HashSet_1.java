@@ -33,6 +33,14 @@ public class HashSet_1 {
 		System.out.println(as);
 		System.out.println("Now call by index value");
 		System.out.println(as.get(4));
+		
+		//To call all the values, formal For loop won't work becoz don't have indexing
+		
+		System.out.println();
+		System.out.println("Using for each loop and calling values");
+		for(Object x:set1) {
+			System.out.println(x);
+		}
 
 	}
 
