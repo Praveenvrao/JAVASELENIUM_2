@@ -51,6 +51,11 @@ public class HashSet_1 {
 		while(It1.hasNext()) {
 			System.out.println(It1.next());
 		}
+		
+		System.out.println();
+		System.out.println("After clearing values by using clear.......");
+		set1.clear();
+		System.out.println(set1);
 
 	}
 
