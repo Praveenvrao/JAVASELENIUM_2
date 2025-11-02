@@ -23,6 +23,17 @@ public class HashMapDemo {
 		System.out.println();
 		System.out.println(hm1.get('C'));
 		
+		//to get only keys
+		System.out.println("To get only keysets");
+		System.out.println(hm1.keySet());
+		
+		//to get only values
+		System.out.println("Below are the only values..");
+		System.out.println(hm1.values());
+		
+		//to remove specific value pair
+		System.out.println();
+		
 
 	}
 
