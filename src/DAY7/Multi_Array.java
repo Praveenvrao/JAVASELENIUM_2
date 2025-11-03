@@ -1,7 +1,5 @@
 package DAY7;
 
-import javax.crypto.KEM;
-
 public class Multi_Array {
 
 	public static void main(String[] args) {

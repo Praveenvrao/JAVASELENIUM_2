@@ -1,7 +1,5 @@
 package DAY11;
 
-import java.io.ObjectInputStream.GetField;
-import java.lang.classfile.AnnotationValue.OfAnnotation;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -68,7 +66,7 @@ public class COLLECTIONS_ARRAYLIST1 {
 		System.out.println();
 		System.out.println(" Reading and writing all the values from the list way3 --- Using Iterator");
 		
-		Iterator IT = list1.iterator();
+		Iterator<Object> IT = list1.iterator();
 		while(IT.hasNext()) {
 			System.out.println(IT.next());
 		}

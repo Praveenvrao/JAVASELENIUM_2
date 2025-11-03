@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Loops_Reversenumber {
 
-	public static void main(String[] args) {
+	@SuppressWarnings("resource")
+	public void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Enter the number : ");
